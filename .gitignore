@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Video
+*.mp4
+
+#Yolo file
+runs
+yolov5su.pt
