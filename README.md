@@ -19,25 +19,35 @@ We use the updated `yolov5su` model from Ultralytics. It provides an excellent b
 
 Tennis balls are notoriously difficult to track due to motion blur, occlusion, and small size. TrackNet v1 addresses this by taking consecutive frames as input to generate a heat map indicating the ball's location, effectively predicting the trajectory even when the ball is temporarily invisible.
 
-## 📋 Prerequisites
-
-Ensure you have the following installed before running the project:
-* Python 3.8 or higher
-* [PyTorch](https://pytorch.org/) (compiled with CUDA for GPU acceleration, highly recommended)
-* OpenCV
-
 ## ⚙️ Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Lad1411/Tennis-analyst.git
-   cd Tennis-analyst
+```bash
+git clone https://github.com/Lad1411/Tennis-analyst.git
+cd Tennis-analyst
+```
 
 2. **Create a virtual environment (optional but recommended):**
 
 ```bash
-    python -m venv venv
-    venv\Scripts\activate
-    
+python -m venv venv
+venv\Scripts\activate
 ```
 
+3. **Install the dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Usage
+```bash
+python main.py -i path/to/your/input_video.mp4 -o path/to/save/output_video.mp4
+```
+
+Example
+```bash
+python main.py -i input_video.mp4 -o output.mp4
+```
+
+## 🎥 Demo
+[output.mp4](output.mp4)
