@@ -50,4 +50,5 @@ python main.py -i input_video.mp4 -o output.mp4
 ```
 
 ## 🎥 Demo
-[output.mp4](output.mp4)
+![img.png](img.png)
+![output.gif](output.gif)
