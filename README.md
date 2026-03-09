@@ -6,7 +6,7 @@ An automated computer vision tool for analyzing tennis match footage. This proje
 
 * **Player Detection:** Utilizes **YOLOv5su** (Ultralytics) for robust and real-time detection of tennis players on the court.
 * **Ball Tracking:** Implements **TrackNet v1** to accurately track the high-speed, often blurred tennis ball across frames.
-* **Match Analytics:** (Add specific analytics your code does, e.g., rally count, ball speed estimation, player heatmaps, bounce detection).
+* **Match Analytics:** Computes player movement statistics including instantaneous speed and average speed throughout the match.
 * **Video Annotation:** Outputs an annotated video with bounding boxes for players and trajectory lines for the ball.
 
 ## 🏗️ Model Architecture
